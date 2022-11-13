@@ -22,7 +22,7 @@ Regardless of the test environment, AIRIS's learned knowledge is exported as one
 ## puzzle_game_driver.py 
 A grid-world puzzle game with various obstacles. The goal is to collect all batteries in a level. There are 13 levels with varying degrees of difficulty and obstacle variety.
 
-By default, this environnment is frame-limited to make it easier for the user to see what is happening. To remove this limitiation and allow the AI to operate at the maximum speed for your hardware, simply comment out line 1289.
+By default, this environnment is frame-limited to make it easier for the user to see what is happening. To remove this limitiation and allow the AI to operate at the maximum speed for your hardware, simply comment out line 1293.
 
 `1289: time.sleep(0.10) # control frame rate (in seconds)`
 
